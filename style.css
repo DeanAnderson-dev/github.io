@@ -8,3 +8,7 @@
     height: 100vh;
     background: linear-gradient(105deg, #69a9e0 50%, #fff 50%);
 }
+#foot {
+    position: fixed;
+    bottom: 0%;
+}
