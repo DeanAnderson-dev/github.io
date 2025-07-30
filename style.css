@@ -11,12 +11,10 @@ body {
 
 #pageMain { 
     flex-grow: 1; 
-}
-
-#main {
-    height: 100vh;
+     height: 100vh;
     background: linear-gradient(105deg, #69a9e0 50%, #fff 50%);
 }
+
 #pageFoot {
     position: fixed;
     bottom: 0%;
