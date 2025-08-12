@@ -1,7 +1,6 @@
 * { 
     box-sizing: border-box; 
 }
-
 body {
     font-family: Arial,sans-serif;
     padding: 0; 
@@ -14,64 +13,50 @@ body {
     min-height: 100vh;
     flex-grow: 1;
     max-width: 75%;
-
 }
-
 h1 {
     text-align: center;
     background-color: RGBA(128, 128, 128, .4);
     margin-left: 30%;
     margin-right: 30%;
 }
-
 h2 {
     text-align: center;
     background-color: RGBA(128, 128, 128, .4);
     margin-left: 40%;
     margin-right: 40%;
 }
-
-
-
 .host {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
-
 nav {
     margin-left: 20px;
     background-color: RGBA(128, 128, 128, .4);
     margin-right: 75%;
 }
-
 ul {
     color: white;
 }
-
 .main-story {
     margin-left: 50px;
     margin-right: 50px;
 }
-
 p {
     color: grey;
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
 .offLink {
     color: #FAF9F6;
 }
-
 a:visited > .offLink {
     color: violet;
 }
-
 a:hover > .offLink {
     color: aqua;
 }
-
 .portfolio {
     color: grey;
 }
@@ -81,7 +66,6 @@ a:visited > .portfolio {
 a:hover > .portfolio {
     color: aqua;
 }
-
 a {
     color: grey;
 }
@@ -91,7 +75,6 @@ a:visited {
 a:hover {
     color: aqua;
 }
-
 a > .contact {
     color: grey;
 }
@@ -101,19 +84,12 @@ a:visited > .contact {
 a:hover > .contact {
     color: aqua;
 }
-
-contact {
-    justify-content: center;
-}
-
 a {
   text-decoration: none;
 }
-
 .profile-image {
   max-width: 100%;
 }
-
 .business-card {
   width: 300px;
   background-color: #FAF9F6;
@@ -125,13 +101,11 @@ a {
   margin-right: auto;
   margin-bottom: 100px;
 }
-
 #social-media > h3 {
     margin-left: auto;
     margin-right: auto;
     background-color: #FAF9F6;
 }
-
 #pageFoot {
     text-align: center;
     bottom: 0%;
