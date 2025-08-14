@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
 * { 
     box-sizing: border-box; 
 }
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     font-family: Arial,sans-serif;
     padding: 0; 
@@ -90,6 +98,20 @@ a {
 .profile-image {
   max-width: 100%;
 }
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 50px;
+    flex-flow: wrap;
+}
+
+.container {
+    display: inline-block;
+   
+}
+
 .business-card {
   width: 300px;
   background-color: #FAF9F6;
@@ -100,7 +122,18 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
+  border-radius: 35px;
+  flex-direction: row;
+  transition: all 0.5s ease; 
+  box-shadow: 2px 2px 10px 5px  #e291e2;
 }
+
+.business-card:hover {
+    transform: scale(1.2) ;
+    box-shadow: 10px 10px 20px 10px #8a5d8a;
+}
+
+
 #social-media > h3 {
     margin-left: auto;
     margin-right: auto;
@@ -111,3 +144,54 @@ a {
     bottom: 0%;
     background-color: rgb(128, 128, 128, .3);
 }
+
+.helloWorld > span { 
+    display: inline-block; 
+    font-family: 'Great Vibes', sans-serif 
+}
+
+.helloWorld span::first-letter {
+    font-size: 35px;
+    color: purple;
+    text-shadow: 1px 1px 3px black;
+    font-weight: bold;
+    
+}
+
+.contact {
+    align-items: center;
+    margin: auto;    
+    max-width: 350px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+.formBorder {
+    background-color: #FAF9F6;
+    border-radius: 10px;
+}
+
+.form {
+  width: 350px;
+  background-color: #FAF9F6;
+  padding: 20px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+
+
+textarea {
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 100px;
+}
+

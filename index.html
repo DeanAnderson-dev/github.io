@@ -19,7 +19,7 @@
     </div>
     <nav>
         <ul>
-            <li>Link to something here eventually</li>
+            <li><a href="thelearningpath.html">Day by Day Blog</a></li>
             <li>Another Cheesy link</li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -31,7 +31,7 @@
     <div class="main-story"> 
         <article>   
     <h2>A Little History</h2>
-    <p>Hello World!</p>
+    <p class="helloWorld"><span class="firstLetter"> H</span>ello <span class="firstLetter">W</span>orld!</p>
     <p>My name is Dean and quite frankly have dabbled in all things tech since high school - graduating 1996. 
         Now don't judge! 😉. As I'm looking to focus on web design as a career so I can be home with my family. You see I travel
     for work. So instead of doing that, another way is to learn while I'm on the road. I have built websites and ecommerce on my own over 
@@ -42,9 +42,9 @@
     <p>Was going to post pictures, but in this moment I can't seem to figure that out. The svg i converted were super pixelated.</p>
     </article>
     </div>
-
-
-    <div class="business-card">
+<div class="cards">
+<div class="container">
+    <div class="business-card container">
         <img class="profile-image" src="https://cdn.freecodecamp.org/curriculum/labs/flower.jpg" alt="pretty flower">
         <p class="full-name">Dean Anderson</p>
         <p class="designation">Designer</p>
@@ -60,11 +60,76 @@
             <a href="https://github.com/DeanAnderson-dev" target="_blank">GitHub</a>
         </div>
     </div>
+</div>
+<div class="container">
+    <div class="business-card container">
+        <img class="profile-image" src="https://cdn.freecodecamp.org/curriculum/labs/flower.jpg" alt="pretty flower">
+        <p class="full-name">Dean Anderson</p>
+        <p class="designation">Designer</p>
+        <p class="company">Creatiful Design</p>
+    <hr>
+        <p>example@email.com</p>
+        <p>555-555-5555</p>
+        <a href="https://journeytobeawebdev.blog/"><span class="portfolio">Portfolio</span></a>
+    <hr>
+        <div id="social-media">
+            <h3>Connect with me</h3>
+            <a href="https://www.linkedin.com/in/deanbanderson/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/DeanAnderson-dev" target="_blank">GitHub</a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="business-card container">
+        <img class="profile-image" src="https://cdn.freecodecamp.org/curriculum/labs/flower.jpg" alt="pretty flower">
+        <p class="full-name">Dean Anderson</p>
+        <p class="designation">Designer</p>
+        <p class="company">Creatiful Design</p>
+    <hr>
+        <p>example@email.com</p>
+        <p>555-555-5555</p>
+        <a href="https://journeytobeawebdev.blog/"><span class="portfolio">Portfolio</span></a>
+    <hr>
+        <div id="social-media">
+            <h3>Connect with me</h3>
+            <a href="https://www.linkedin.com/in/deanbanderson/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/DeanAnderson-dev" target="_blank">GitHub</a>
+        </div>
+    </div>
+</div>
+</div>    
+
+<div class="contact" id="contact">
+    
+    
+        <form action="" method="get" class="formBorder">
+            <div class="form">
+            <label for="name">Name</label>
+            <input aria-label="Name" name="name" type="text" required aria-required="name" minlength="2" maxlength="20" placeholder="Name">
+            </div>
+            <div class="form">
+            <label for="number">Number</label>
+            <input aria-label="phone number" name="number" type="number" required aria-required="name" minlength="2" maxlength="20" placeholder="555-555-5555">
+            </div>
+            <div class="form">
+            <label for="email">Email</label>
+            <input aria-label="Name" name="email" type="email" required aria-required="name" minlength="2" maxlength="20" placeholder="example@email.com">
+            </div>
+            
+            <div class="form formText">
+                <textarea type="text" aria-readonly="text"> Additional Comments?</textarea>
+
+            </div>
+        </form>
+    
+    
+</div>
+
 </main>
 
 <div id="pageFoot">
     <footer >
-            <h4>Contact</h4>
+            <h4 id="contact">Contact</h4>
             <address>
                 <p>Phone: <a href="tel:5555555555"><span class="contact">555-555-5555</span></a></p>
                 <p>Email: <a href="mailto:fake@email.com"><span class="contact">fake@email.com</span></a></p>
