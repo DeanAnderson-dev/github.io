@@ -17,7 +17,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(45deg, black, purple);
+    background-image: linear-gradient(145deg, black, purple);
     min-height: 100vh;
     flex-grow: 1;
     max-width: 75%;
@@ -25,14 +25,18 @@ body {
 h1 {
     text-align: center;
     background-color: RGBA(128, 128, 128, .4);
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
 }
 h2 {
+    display: flex;
     text-align: center;
+    justify-content: center;
     background-color: RGBA(128, 128, 128, .4);
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .host {
     margin-left: auto;
@@ -40,9 +44,10 @@ h2 {
     text-align: center;
 }
 nav {
+    display: flex;
     margin-left: 20px;
     background-color: RGBA(128, 128, 128, .4);
-    margin-right: 75%;
+    margin-right: 65%;
 }
 ul {
     color: white;
@@ -56,6 +61,11 @@ p {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+.storyTime {
+    padding: 50px 0px 0px 0px;
+}
+
 .offLink {
     color: #FAF9F6;
 }
@@ -94,6 +104,8 @@ a:hover > .contact {
 }
 a {
   text-decoration: none;
+  color: ;
+  
 }
 .profile-image {
   max-width: 100%;
@@ -145,16 +157,44 @@ a {
     background-color: rgb(128, 128, 128, .3);
 }
 
+.startHere {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(128, 128, 128, .4);
+    border-radius: 10px;
+    min-width: 225px;
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+
 .helloWorld > span { 
     display: inline-block; 
-    font-family: 'Great Vibes', sans-serif 
-}
+    font-family: 'Great Vibes', sans-serif;
+ }
 
 .helloWorld span::first-letter {
     font-size: 35px;
-    color: purple;
-    text-shadow: 1px 1px 3px black;
-    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgb(224, 224, 224);
+    font-weight: bolder;
+}
+
+div > .helloWorld {
+    font-size:  25px;
+    color:  black;
+    text-shadow: .5px .5px white;
+    font-weight: bolder;
+}
+
+.contactTitle {
+   display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 50px;
+    flex-flow: wrap;
     
 }
 
