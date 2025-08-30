@@ -2,18 +2,19 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
     width: 50%;
-    margin-top: 10%;
     background-color: black;
-    
 }
 
 .card {
     display: flex-box;
     width: 350px;
     height: fit-content;
-    border: solid 3px rgb(243, 166, 0);
+    border: solid 5px rgb(243, 166, 0);
     border-radius: 5px;
     padding: 20px;
     background-color: rgba(136, 136, 136, 0.25);
@@ -51,6 +52,7 @@ div {
 
 button {
     border-style: outset;
+    
     display: block;
     width: 100%;
     background-color: rgb(128, 128, 128, 20%);
@@ -58,6 +60,7 @@ button {
     border-radius: 100%;
     transition: .3s;
     text-decoration: 1px solid black;
+  
 }
 
 .btn {
