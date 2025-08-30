@@ -1,0 +1,88 @@
+body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-top: 10%;
+    background-color: black;
+    
+}
+
+.card {
+    display: flex-box;
+    width: 350px;
+    height: fit-content;
+    border: solid 3px rgb(243, 166, 0);
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(136, 136, 136, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+img {
+    
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 100%;
+
+}
+
+hr {
+    max-width: 75%;
+    border: 1px solid rgb(243, 166, 0);
+    border-radius: 100%;
+}
+
+.container {
+    padding-top: 015px;
+    padding-bottom: 10px;
+    
+}
+
+div {
+    color: rgb(243, 166, 0);
+}
+
+button {
+    border-style: outset;
+    display: block;
+    width: 100%;
+    background-color: rgb(128, 128, 128, 20%);
+    color: rgb(243, 166, 0);
+    border-radius: 100%;
+    transition: .3s;
+    text-decoration: 1px solid black;
+}
+
+.btn {
+    margin: 15px 20px;
+}
+
+button:hover {
+    background-color: rgba(70, 70, 70, 0.3);
+    color: rgb(243, 166, 0);
+    text-shadow: 1px 1px 01px rgba(255, 174, 0, 0.7);
+    
+    
+}
+
+.button::after {
+    content: "";
+    position: absolute;
+    inset: -.625em;
+    background: linear-gradient(to bottom right,
+    rgb(128, 128, 128), rgb(226,155,1));
+    filter: blur(2.5em);
+    z-index: -1;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(243, 166, 0);
+}

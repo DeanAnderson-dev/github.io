@@ -18,6 +18,10 @@ section {
     padding-left: 10px;
 }
 
+div:nth-child(odd) {
+    background-color: rgb(172, 172, 172);
+}
+
 
 /*.container {
     justify-content: center;
