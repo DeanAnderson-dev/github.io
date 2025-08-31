@@ -22,6 +22,8 @@ body {
     flex-grow: 1;
     max-width: 75%;
 }
+
+
 h1 {
     text-align: center;
     background-color: RGBA(128, 128, 128, .4);
@@ -43,15 +45,41 @@ h2 {
     margin-right: auto;
     text-align: center;
 }
+
+
 nav {
     display: flex;
-    margin-left: 20px;
+    margin: 0px 10px;
+    padding: 0;
     background-color: RGBA(128, 128, 128, .4);
-    margin-right: 65%;
+    justify-content: center;
+    align-items: center;
 }
-ul {
+nav ul {
     color: white;
+    list-style-type: none;
+    overflow: hidden;
+    justify-content: space-evenly;
+    margin: 5px 10px;
 }
+ul li {
+    float: left;
+}
+ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 15px
+}
+ul li a:hover {
+    background-color: #111;
+    padding: 5px 12px;
+    border: 2px solid orange;
+
+}
+
+
+
 .main-story {
     margin-left: 50px;
     margin-right: 50px;
@@ -104,8 +132,6 @@ a:hover > .contact {
 }
 a {
   text-decoration: none;
-  color: ;
-  
 }
 .profile-image {
   max-width: 100%;
