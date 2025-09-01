@@ -87,6 +87,18 @@ h2 {
   word-spacing: 3px;
 }
 
+h3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Boldonse", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 10px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    height: 10px;
+}
 .story-script-regular {
   font-family: "Story Script", sans-serif;
   font-weight: 400;
@@ -97,14 +109,45 @@ h2 {
 
 
 
-img {
+.imgWifi {
     
     width: 30%;
     justify-content: center;
     align-items: center;
     margin-top: 15px;
     border-radius: 100%;
+}
 
+div .imgShoprow {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+.imgShopcol {
+    flex: 50%;
+    max-width: 150px;
+    padding: 0px 10px;
+}
+.imgShop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    
+}
+
+.imgecom {
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: auto;
+    
 }
 
 hr {
@@ -139,7 +182,7 @@ button {
     text-decoration: 1px solid black;
 }
 
-.formButton {
+/*.formButton {
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -151,7 +194,7 @@ button {
     padding-top: 5px;
     padding-bottom: 5px;
     border: 1px solid rgb(243, 166, 0);
-}
+}*/
 
 .btn {
     margin: 15px 20px;
@@ -163,11 +206,10 @@ button:hover {
     text-shadow: 1px 1px 01px rgba(255, 174, 0, 0.7);
 }
 
-.formButton:hover {
+/*.formButton:hover {
     background-color: rgba(70, 70, 70, 0.3);
     text-shadow: none;
-    
-}
+}*/
 
 .button::after {
     content: "";
@@ -185,8 +227,8 @@ a {
 }
 
 .hr {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #hidden {
@@ -201,7 +243,7 @@ a {
     margin-right: auto;*/
 }
 
-.textarea {
+/*.textarea {
     margin: 20px;
 }
 
@@ -216,19 +258,24 @@ input[type="email"] {
 
 footer {
     margin: 50px;
-}
+}*/
 
 #top {
     padding-top: 20px;
 }
 
 .links {
-    display:inline-flex;
-    
-    
+    display:flex;
+    justify-content: center;    
+    align-items: center;
+    text-align: center;
 }
 
 .linkSpace {
     padding-right: 10px;
     padding-left: 10px;
+}
+
+.linkChild {
+    flex: 0 1 auto;
 }
