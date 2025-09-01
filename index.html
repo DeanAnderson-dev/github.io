@@ -3,152 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Journey through the Basics of Web Design </title>
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="app.js">
+    <title>My Site</title>
+    <link rel="stylesheet" type="text/css" href="linkstyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Story+Script&display=swap" rel="stylesheet">
+    
 </head>
-<main>
-<header>
-    <div  id="pageHead">
-    <div id="header">
-    <h1>From Basics to Front End Developer</h1>
-    </div>
-    <hr>
-    <div class="host">
-        <p>This page is hosted with <a href="https://pages.github.com/" target="_blank">Github Pages</a></p>
-    </div>
-    <nav>
-        <ul>
-            <li><a href="thelearningpath.html">Day by Day Blog</a></li>
-            <li><a href="./links.html">Connect with Me!</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    </div>
-</header>
-<hr>
 <body>
-
-    <div class="main-story"> 
-        <article>   
-    <h2>A Little Place To Mess Around</h2>
-    <div class="startHere">
-    <p class="helloWorld"><span class="firstLetter"> H</span>ello<span class="firstLetter">W</span>orld!</p>
-    </div>
-    <div class="storyTime">
-        
-            <p>My name is Dean and quite frankly have dabbled in all things tech since high school - graduating 1996. 
-            Now don't judge! 😉. As I'm looking to focus on web design as a career so I can be home with my family. You see I travel
-            for work. So instead of doing that, another way is to learn while I'm on the road. I have built websites and ecommerce on my own over 
-            the last 15 years. However none from scratch, they've all been through drag drop builders. Ecommerce has been mainly Shopify. 
-            January 2025, I started a <a href="https://microbite.farm/" target="_blank"><span class="offLink">vertical farm</span></a> at home that we use Shopify for, 
-            recently having had to disable the ability for customers to purchase online since I have had to go back to work. They can still order through
-            the form and my wife or kids step in and do the work. Planting, harvesting and deliveries. Are they not incredible! 👏</p>
-            <p>Was going to post pictures, but in this moment I can't seem to figure that out. The svg i converted were super pixelated.</p>
-            </div>
-        </article>
-        
-    </div>
-<div class="cards">
-<div class="container">
-    <div class="business-card container">
-        <img class="profile-image" src="https://cdn.freecodecamp.org/curriculum/labs/flower.jpg" alt="pretty flower">
-        <p class="full-name">Dean Anderson</p>
-        <p class="designation">Designer</p>
-        <p class="company">Creatiful Design</p>
-    <hr>
-        <p>example@email.com</p>
-        <p>555-555-5555</p>
-        <a href="https://journeytobeawebdev.blog/"><span class="portfolio">Portfolio</span></a>
-    <hr>
-        <div id="social-media">
-            <h3>Connect with me</h3>
-            <a href="https://www.linkedin.com/in/deanbanderson/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/DeanAnderson-dev" target="_blank">GitHub</a>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="business-card container">
-        <img class="profile-image" src="https://cdn.freecodecamp.org/curriculum/labs/flower.jpg" alt="pretty flower">
-        <p class="full-name">Dean Anderson</p>
-        <p class="designation">Designer</p>
-        <p class="company">Creatiful Design</p>
-    <hr>
-        <p>example@email.com</p>
-        <p>555-555-5555</p>
-        <a href="https://journeytobeawebdev.blog/"><span class="portfolio">Portfolio</span></a>
-    <hr>
-        <div id="social-media">
-            <h3>Connect with me</h3>
-            <a href="https://www.linkedin.com/in/deanbanderson/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/DeanAnderson-dev" target="_blank">GitHub</a>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="business-card container">
-        <img class="profile-image" src="https://cdn.freecodecamp.org/curriculum/labs/flower.jpg" alt="pretty flower">
-        <p class="full-name">Dean Anderson</p>
-        <p class="designation">Designer</p>
-        <p class="company">Creatiful Design</p>
-    <hr>
-        <p>example@email.com</p>
-        <p>555-555-5555</p>
-        <a href="https://journeytobeawebdev.blog/"><span class="portfolio">Portfolio</span></a>
-    <hr>
-        <div id="social-media">
-            <h3>Connect with me</h3>
-            <a href="https://www.linkedin.com/in/deanbanderson/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/DeanAnderson-dev" target="_blank">GitHub</a>
-        </div>
-    </div>
-</div>
-</div>    
-
-<div class="contact" id="contact">
+    <div class="mobile-container">
+        <div id="home">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="./links.html">Back to Links</a></li>
+                </ul>
     
-    
-        <form action="" method="get" class="formBorder">
-            <div>
-                <h3 class="contactTitle">How Can I Help You?</h3>
-            </div>
-            <div class="form">
-            <label for="name">Name</label>
-            <input aria-label="Name" name="name" type="text" required aria-required="name" minlength="2" maxlength="20" placeholder="Name">
-            </div>
-            <div class="form">
-            <label for="number">Number</label>
-            <input aria-label="phone number" name="number" type="number" required aria-required="name" minlength="2" maxlength="20" placeholder="555-555-5555">
-            </div>
-            <div class="form">
-            <label for="email">Email</label>
-            <input aria-label="Name" name="email" type="email" required aria-required="name" minlength="2" maxlength="20" placeholder="example@email.com">
-            </div>
-            
-            <div class="form formText">
-                <textarea type="text" aria-readonly="text"> Additional Comments?</textarea>
+            </nav>
+            <hr>
+        </div>
+    </div>
+    <h1>Dean Anderson</h1>
+    <hr>
+    <div class="explain">
+        <h2>How can I help your small business?</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There's a lot of options for choice to build a website. I can guide you
+            to the best options through a quick meeting to find out what your goals are.
+            Where I specialize is in single page small business websites.
+            And will build those with wordpess themes.</p>
+        <p>You can find all the Wordpress Themes right <a href="https://wordpress.org/themes/" target="_blank"><strong>HERE.</strong>
+        </a></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wordpress being the cheapest option. This option still is very flexible and a wide
+            variety of free options to choose from. With a quicker timeline to having a live website.
 
+            <h2>Needing more customization?</h2>
+            If your desire is for something more custom built to suit you personal touch,
+            that can be easily discussed and setup. Nice thing about being freelance in web development is
+            the number of people you meet and connect with. Frankly I can either connect you with someone who
+            can do the work. With the option of being your voice and walking you through the process as the website
+            comes to life.
+        </p>
+
+        <h2>Needing help with Ecommerce?</h2>
+        <p>I work with Shopify as a partner. Building stores and supporting owners as they grow their business
+            and get a deeper understanding of the platform. 
+        </p>
+        <iframe src="https://microbite.farm" frameborder="0" height="300px" width=""></iframe>
+        <embed src="https://microbite.farm" type="text/html">
+        <embed src="https://ddogames.myshopify.com/" type="text/html">
+    </div>
+<div class="hr">
+    <hr>
+</div>
+    <div id="about">
+        <h2>ABOUT</h2>
+        <p>I specialize in single page business websites</p>
+
+    </div>
+    <div class="hr">
+        <hr>
+    </div>
+    
+    <div id="hidden">
+        <p>Reach Out Here With Any Questions!</p>
+        <form class="divForm" action="">
+            <div class="divForm">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Name">
             </div>
+            <div class="divForm">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="example@email.com">
+            </div>
+            <div class="divForm">
+                <label for="phone">Phone</label>
+                <input type="text" name="phone" id="phone">
+            </div>
+            <div class="divForm">
+                <p>Best Way to Connect</p>
+                <label for="contact">Phone</label>
+                <input type="radio" name="contact" id="">
+                <label for="contact">Email</label>
+                <input type="radio" name="contact">
+            </div>
+            <div class="textarea">
+                <textarea name="help" id="" placeholder="How Can I Help?" rows="5" cols="50"></textarea>
+            </div>
+            <button class="formButton" type="button" id="submitbutton">Submit</button>
         </form>
+    </div>
+<footer>
+   
+    <p id="top"><a href="#top">Back to the Top </a><br>
+    <div class="links">
+        <p>
+            <a href="https://www.linkedin.com/in/deanbanderson/">LinkedIn</a>
+        </p>
+        <p class="linkSpace">|</p>
+        <p>
+            <a href="https://github.com/DeanAnderson-dev">GitHub</a>
+        </p>
+        <p class="linkSpace">|</p>
+        <p>
+            <a href="https://www.youtube.com/@wifi_warlord">YouTube</a>
+        </p>
+        <p class="linkSpace">|</p>
+        <p>
+            <a href="./playground.html">Playground</a>
+        </p>
+    </div>
+</footer>
     
-    
-</div>
 
-</main>
-
-<div id="pageFoot">
-    <footer >
-            <h4 id="contact">Contact</h4>
-            <address>
-                <p>Phone: <a href="tel:5555555555"><span class="contact">555-555-5555</span></a></p>
-                <p>Email: <a href="mailto:fake@email.com"><span class="contact">fake@email.com</span></a></p>
-            </address>
-        
-    </footer>
-</div>
-    
-
-</body>   
+</body>
 </html>
