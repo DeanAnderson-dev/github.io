@@ -107,8 +107,6 @@ h3 {
   letter-spacing: 2px;
 }
 
-
-
 .imgWifi {
     
     width: 30%;
@@ -147,7 +145,6 @@ div .imgShoprow {
     margin-right: auto;
     width: 150px;
     height: auto;
-    
 }
 
 hr {
@@ -172,7 +169,6 @@ div {
 
 button {
     border-style: outset;
-    
     display: block;
     width: 100%;
     background-color: rgb(128, 128, 128, 20%);
@@ -278,4 +274,15 @@ footer {
 
 .linkChild {
     flex: 0 1 auto;
+}
+
+iframe {
+    display: flex-box;
+    width: 500px;
+    height: 250px;
+    
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
