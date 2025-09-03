@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
 .linkBody {
     justify-content: center;
     align-items: center;
@@ -68,8 +73,6 @@ nav ul{
     background-color: rgba(136, 136, 136, 0.25);
     margin-left: auto;
     margin-right: auto;
-    
-    
 }
 
 h1 {
@@ -99,6 +102,12 @@ h3 {
     word-spacing: 3px;
     height: 10px;
 }
+
+p {
+        line-height: 2;
+
+}
+
 .story-script-regular {
   font-family: "Story Script", sans-serif;
   font-weight: 400;
@@ -113,6 +122,38 @@ h3 {
     justify-content: center;
     align-items: center;
     margin-top: 15px;
+    border-radius: 100%;
+}
+
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+.element {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;    
+    height: 110px;
+    width: 110px;    
+    background-image: conic-gradient(from var(--angle), rgb(243, 166, 0), rgb(0,0,0), rgb(243,166,0)); 
+    animation: 5s spin linear infinite;
+    border-radius: 100%;
+}
+
+@keyframes spin{
+    from{
+        --angle: 0deg;
+    }
+    to{
+        --angle: 360deg;
+    }
+}
+.imgWifi-index {
+    margin: auto;
+    width: 100px;    
+   /*border-image: linear-gradient(to right, rgb(243, 166, 0), rgb(243, 198, 0)) 1;*/
     border-radius: 100%;
 }
 
@@ -278,11 +319,12 @@ footer {
 
 iframe {
     display: flex-box;
-    width: 500px;
+    width: 100%;
     height: 250px;
-    
+    max-width: 500px;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
+    flex-shrink: 3;
 
 }
